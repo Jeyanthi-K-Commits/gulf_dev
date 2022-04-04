@@ -1,0 +1,13 @@
+olyslagerApiWsdl: 'https://olyslager-customerapi.lubsadvisor.com/OlyslagerAPI.asmx?wsdl'
+username: 'Gulf_Oil_GBR_Test'
+password: 'Wa74TgBy65'
+Cars: 1
+Cars_(USA/CAN): 55
+Cars_of_Russia(RUS): 33
+Light_commercial_vehicles_(<75t): 2
+Light_commercial_vehicles_(<75t)_(USA/CAN): 66
+Motorcycles_Mopeds_ATV/UTV: 4
+Trucks_and_Buses_(>75t): 3
+Agricultural_Equipment: 5
+Construction_Mining_and_Materials_Handling_Equipment: 10
+Marine: 31

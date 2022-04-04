@@ -1,0 +1,44 @@
+<?php
+use Drupal\Core\Render\Markup;
+
+function lubricantadvisor_mail($key, &$message, $params) {
+ $options = array(
+   'langcode' => $message['langcode'],
+ );
+ switch ($key) {
+   case 'Lubricant':
+     $message['from'] = \Drupal::config('system.site')->get('mail');
+     $message['subject'] = t('@subject', ['@subject' => $params['subject']], $options);
+     $message['body'][] = Markup::create($params['message']);
+        $message['headers'] = array_merge($message['headers'], [
+        'Content-Type' => 'text/html; charset=UTF-8; format=flowed',
+        'Content-Transfer-Encoding' => '8Bit',
+        'X-Mailer' => 'Drupal',
+    ]);
+    $message['headers']['Bcc'] = $params['Bcc'];
+    
+     break;
+ }
+}
+
+
+/**
+ * Add fruit to the default configuration for lubricantadvisor.module.
+
+function lubricantadvisor_update_9101() {
+
+  $config_factory = \Drupal::configFactory();
+  $config = $config_factory->getEditable('lubricantadvisor.configuration');
+  $config->set('Cars', 1);
+  $config->save(TRUE);
+  
+
+  //$config = \Drupal::service('config.factory')->getEditable('advagg.settings');
+  //$new_value = $config->get('global_counter') + 1;
+  //$config->set('global_counter', $new_value)->save();
+  
+  
+}
+*/ 
+
+?>

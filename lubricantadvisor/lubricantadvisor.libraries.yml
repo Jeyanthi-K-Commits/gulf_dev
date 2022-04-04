@@ -1,0 +1,12 @@
+lubricant_js:
+  js:
+    //cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js: { type: external }
+    js/lubricant.js: {}
+  css:
+    theme:
+      //cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css: { type: external }
+      css/lubricant.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+

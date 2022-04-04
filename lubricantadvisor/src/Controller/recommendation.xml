@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <TypeID2RecommendationResponse xmlns="http://olyslager-customerAPI.lubricantinformation.com">
+            <TypeID2RecommendationResult>
+                <ctmessage xmlns="">
+                    <status>
+                        <resultcode>1</resultcode>
+                        <resultdescription>OK</resultdescription>
+                        <server>olyslager-customerAPI.lubricantinformation.com</server>
+                    </status>
+                    <vehicle>
+                        <make name="BMW" />
+                        <model name="5 series, E60 / E61 (2003-2011)" />
+                        <type name="520d DPF" />
+                        <yearrange name="2007 - 2010" />
+                    </vehicle>
+                    <advice>
+                        <brandrange id="1">
+                            <component name="Engine" code="N47D20">
+                                <number>1</number>
+                                <apporder>1</apporder>
+                                <capacities>
+                                    <capacity>Capacity 5,2 litre</capacity>
+                                </capacities>
+                                <use name="Flexible (max)">
+                                    <intervals>
+                                        <interval>Change 30000 km/ 24 months</interval>
+                                    </intervals>
+                                    <product number="1" apporder="1" productcode="1205" name="Gulf Formula GVX SAE 5W-30" id="267514" temperature="year-round" url="" packshot="https://drive.google.com/file/d/1_DZNs87eflgX9iboS3kjqP3w-VBvKR-T/view?usp=sharing" />
+                                    <product number="2" apporder="2" productcode="1230" name="Gulf Formula CX SAE 5W-30" id="267515" temperature="year-round" url="" packshot="https://drive.google.com/file/d/1UAjCVsgZKmgql7BN9OqvrG4PE4Y19sKv/view?usp=sharing" />
+                                    <product number="3" apporder="7" productcode="1221" name="Gulf Formula ULE SAE 5W-40" id="267520" temperature="year-round" url="" packshot="https://drive.google.com/file/d/1R1Itw0C2jaC7kOrsTA9oEeeYowYCHG1D/view?usp=sharing" />
+                                </use>
+                            </component>
+                            <component name="Differential, rear" code="188L">
+                                <number>2</number>
+                                <apporder>3</apporder>
+                                <capacities>
+                                    <capacity>Capacity 1 litre</capacity>
+                                </capacities>
+                                <use name="Normal">
+                                    <intervals />
+                                    <product number="1" apporder="1" productcode="" name="Special Product" id="99999" temperature="" url="" packshot="" />
+                                </use>
+                            </component>
+                            <component name="Transmission, automatic" code="ZF 6HP19 6/1">
+                                <number>3</number>
+                                <apporder>3</apporder>
+                                <capacities>
+                                    <capacity>Capacity 9-9,5 litre</capacity>
+                                </capacities>
+                                <use name="Normal">
+                                    <intervals />
+                                    <product number="1" apporder="1" productcode="" name="Special Product" id="99999" temperature="" url="" packshot="" />
+                                </use>
+                            </component>
+                            <component name="Transmission, manual, with MTF-LT3 label" code="ZF GS6-37BZ/DZ 6/1">
+                                <number>4</number>
+                                <apporder>3</apporder>
+                                <capacities>
+                                    <capacity>Capacity 1,7-2,3 litre (Service fill)</capacity>
+                                    <capacity>Capacity 1,9-2,5 litre (Initial fill)</capacity>
+                                </capacities>
+                                <use name="Normal">
+                                    <intervals />
+                                    <product number="1" apporder="1" productcode="" name="Special Product" id="99999" temperature="" url="" packshot="" />
+                                </use>
+                            </component>
+                            <component name="Hydraulic brake/clutch system, DSC" code="">
+                                <number>5</number>
+                                <apporder>5</apporder>
+                                <capacities />
+                                <use name="Normal">
+                                    <intervals>
+                                        <interval>Change 24 months</interval>
+                                    </intervals>
+                                    <product number="1" apporder="118" productcode="6404" name="Gulf Brake Fluid DOT 4" id="267631" temperature="year-round" url="" packshot="https://drive.google.com/file/d/1MC8kGfUWhhjt5jF7SX_7MhoI3dlqMs0L/view?usp=sharing" />
+                                    <product number="2" apporder="119" productcode="6405" name="Gulf Racing Brakefluid" id="267632" temperature="year-round" url="" packshot="" />
+                                    <product number="3" apporder="214" productcode="1" name="Gulf Elec Brake Fluid" id="267727" temperature="year-round" url="" packshot="https://drive.google.com/file/d/1eCLAG04BfP7rELjeb2BaTMP1qpKO_vXQ/view?usp=sharing" />
+                                </use>
+                            </component>
+                            <component name="Power steering, combined with levelling system" code="">
+                                <number>6</number>
+                                <apporder>6</apporder>
+                                <capacities />
+                                <use name="Normal">
+                                    <intervals />
+                                    <product number="1" apporder="1" productcode="" name="Special Product" id="99999" temperature="" url="" packshot="" />
+                                </use>
+                            </component>
+                            <component name="Power steering, separate system (ATF cap)" code="">
+                                <number>7</number>
+                                <apporder>6</apporder>
+                                <capacities />
+                                <use name="Normal">
+                                    <intervals />
+                                    <product number="1" apporder="105" productcode="2460" name="Gulf Multi Vehicle ATF" id="267618" temperature="year-round" url="" packshot="https://drive.google.com/file/d/1heL6zkvgetHjACCZiiP91UpQ4LLyu_hN/view?usp=sharing" />
+                                    <product number="2" apporder="106" productcode="2502" name="Gulf ATF DX II" id="267619" temperature="year-round" url="" packshot="https://drive.google.com/file/d/1Ynu21lP5OHvzdMf9a2npPsp8gxXZmhl9/view?usp=sharing" />
+                                    <product number="3" apporder="108" productcode="2504" name="Gulf ATF DX IIIH" id="267621" temperature="year-round" url="" packshot="" />
+                                </use>
+                            </component>
+                            <component name="Cooling system" code="">
+                                <number>8</number>
+                                <apporder>8</apporder>
+                                <capacities>
+                                    <capacity>Capacity 7,2-7,4 litre</capacity>
+                                </capacities>
+                                <use name="Normal">
+                                    <intervals>
+                                        <interval>Change 48 months</interval>
+                                    </intervals>
+                                    <product number="1" apporder="121" productcode="6901" name="Gulf Antifreeze LL" id="267634" temperature="year-round" url="" packshot="https://drive.google.com/file/d/1c0F-_PrEkg5dvl3dESJI6WLcru9XJuCN/view?usp=sharing" />
+                                </use>
+                            </component>
+                        </brandrange>
+                    </advice>
+                </ctmessage>
+            </TypeID2RecommendationResult>
+        </TypeID2RecommendationResponse>
+    </soap:Body>
+</soap:Envelope>

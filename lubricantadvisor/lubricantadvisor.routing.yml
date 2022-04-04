@@ -1,0 +1,170 @@
+lubricantadvisor.lubricantsearchform:
+  path: '/lubricantadvisor/form'
+  defaults:    
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantsearchform'
+    _title: 'Lubricant Advisor'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorcategoryinfo:
+  path: '/category'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorcategoryinfo'
+    _title: 'Lubricant Advisor Model based on Category Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorcategoryinfo1:
+  path: '/category/{category_id}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorcategoryinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisormodelinfo:
+  path: '/model'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisormodelinfo'
+    _title: 'Lubricant Advisor Model Based on manufacturer -make id Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisormodelinfo1:
+  path: '/model/{make_id}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisormodelinfo'
+    _title: 'Lubricant Advisor Model Based on manufacturer -make id Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisortypeinfo:
+  path: '/type'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisortypeinfo'
+    _title: 'Lubricant Advisor Type Based on model id Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisortypeinfo1:
+  path: '/type/{model_id}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisortypeinfo'
+    _title: 'Lubricant Advisor Type Based on model id Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantselectoradvisorinfo:
+  path: '/search_lubricant_advisor'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantselectoradvisorinfo'
+    _title: 'Lubricant Advisor'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.typeid2recommendationinfo:
+  path: '/recommendation'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::typeid2recommendationinfo'
+    _title: 'Components Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.typeid2recommendationinfoString:
+  path: '/recommendation_string'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::typeid2recommendationinfoString'
+    _title: 'Components Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.typeid2recommendationinfoOld:
+  path: '/recommendation_old'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::typeid2recommendationinfoOld'
+    _title: 'Components Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo:
+  path: '/browse'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantselectorinfo:
+  path: '/search_lubricant'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantselecterinfo'
+    _title: 'Lubricant Advisor'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo1:
+  path: '/browse/{field_data}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo2:
+  path: '/browse/{field_data}/{field_data1}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo3:
+  path: '/browse/{field_data}/{field_data1}/{field_data2}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo4:
+  path: '/browse/{field_data}/{field_data1}/{field_data2}/{field_data3}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo5:
+  path: '/browse/{field_data}/{field_data1}/{field_data2}/{field_data3}/{field_data4}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo6:
+  path: '/browse/{field_data}/{field_data1}/{field_data2}/{field_data3}/{field_data4}/{field_data5}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo7:
+  path: '/browse/{field_data}/{field_data1}/{field_data2}/{field_data3}/{field_data4}/{field_data5}/{field_data6}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.lubricantadvisorinfo8:
+  path: '/browse/{field_data}/{field_data1}/{field_data2}/{field_data3}/{field_data4}/{field_data5}/{field_data6}/{field_data7}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::lubricantadvisorinfo'
+    _title: 'Lubricant Advisor Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.equipmentinfo:
+  path: '/equipment/{equipment_name}'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::equipmentinfo'
+    _title: 'Equipment Details'
+  requirements: 
+    _permission: 'access content'
+lubricantadvisor.open_modal_form:
+  path: '/lubricantadvisor/email_popup/{equipment_name}'
+  defaults:
+    _title:  'Sendemail'
+    _controller: '\Drupal\lubricantadvisor\Controller\LubricantAdvisor::openMailPopupForm'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+lubricantadvisor.autocomplete:
+  path: '/autocomplete'
+  defaults:
+    _controller: '\Drupal\lubricantadvisor\Controller\AutocompleteController::handleAutocomplete'
+    _format: json
+  requirements:
+    _permission: 'access content'

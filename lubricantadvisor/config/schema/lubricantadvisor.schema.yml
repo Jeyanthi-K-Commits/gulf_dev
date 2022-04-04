@@ -1,0 +1,43 @@
+lubricantadvisor.settings:
+  type: config_object
+  label: 'Lubricant Advisor config'
+  mapping:
+    olyslagerApiWsdl:
+      type: text
+      label: 'Olyslager SOAP WSDL API'
+    username:
+      type: text
+      label: 'SOAP WSDL API User Name'
+    password:
+      type: text
+      label: 'SOAP WSDL API Password'
+    Cars:
+      type: integer
+      label: 'Cars category category'
+    Cars_(USA/CAN):
+      type: integer
+      label: 'Cars category USA/CAN category'
+    Cars_of_Russia(RUS):
+      type: integer
+      label: 'Cars category RUS category'
+    Light_commercial_vehicles_(<75t):
+      type: integer
+      label: 'Light commercial vehicles category'
+    Light_commercial_vehicles_(<75t)_(USA/CAN):
+      type: integer
+      label: Light commercial vehicles USA/CAN category'
+    Motorcycles_Mopeds_ATV/UTV:
+      type: integer
+      label: 'Motorcycles Mopeds ATV category'
+    Trucks_and_Buses_(>75t):
+      type: integer
+      label: 'Trucks and Buses category'
+    Agricultural_Equipment:
+      type: integer
+      label: 'Agricultural Equipment category'
+    Construction_Mining_and_Materials_Handling_Equipment:
+      type: integer
+      label: 'Construction Mining and Materials Handling Equipment category'
+    Marine:
+      type: integer
+      label: 'Marine category'    
